@@ -1,0 +1,63 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: #3f3f3f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.nav-primary {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-left: 4rem;
+  color: #3f3f3f;
+}
+ul {
+  display: flex;
+}
+
+li a {
+  color: #3f3f3f;
+  margin-right: 2.4rem;
+}
+
+/* banner section */
+.banner-container {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  justify-content: center;
+}
+.banner-container {
+  margin-left: 4rem;
+}
+.banner-title {
+  font-size: 3.25rem;
+  font-weight: 700;
+}
+.btn-primary {
+  background-color: #e02c6d;
+  color: #eae8e8;
+  cursor: pointer;
+  border: 0;
+}
+.btn-banner {
+  border-radius: 41px;
+  padding: 1rem 3rem;
+}
+.banner-image {
+  background-image: url("./images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+}
+.banner-image img {
+  padding: 5rem 3rem;
+  width: 80%;
+}
+
+/*end of banner section */
