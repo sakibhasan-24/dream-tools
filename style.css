@@ -11,6 +11,11 @@ nav {
   font-weight: 600;
   margin-top: 1.5rem;
 }
+.mobile-menu {
+  font-size: 3rem;
+  color: #000;
+  display: none;
+}
 .nav-primary {
   font-size: 1.8rem;
   font-weight: 700;
@@ -69,3 +74,42 @@ li a {
 }
 
 /*end of banner section */
+
+/* media query for mobile */
+
+@media screen and (max-width: 576px) {
+  .nav-primary {
+    padding: 1.5rem;
+  }
+  .list-container {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+    padding: 1.5rem;
+  }
+  .btn-banner {
+    border-radius: 3rem;
+    padding: 1rem 0.6rem;
+  }
+  .banner-container {
+    flex-direction: column;
+    margin-left: 0.5rem;
+    padding: 1rem 2.5rem;
+  }
+  .banner-text {
+    font-size: 1.5rem;
+    color: #3f3f3f;
+    letter-spacing: 1.5px;
+  }
+  .banner-image {
+    /* margin-left: 2rem; */
+    /* width: 100%; */
+    margin-right: 2rem;
+  }
+  .banner-image img {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+}
