@@ -94,6 +94,40 @@ main {
   display: flex;
   justify-content: space-between;
 }
+/* 1)end of icons sections */
+/* 3) start of feature section */
+
+.features-container {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+.features-text-container {
+  margin-bottom: 1rem;
+  max-width: 43rem;
+}
+.feature-img img {
+  margin-top: 4rem;
+}
+.feature-title {
+  max-width: 35rem;
+  color: #0a0826;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+.feature-text {
+  max-width: 30rem;
+  color: #6c6c6c;
+  line-height: 28px;
+}
+.feature-btn {
+  padding: 1rem 1.8rem;
+  border-radius: 8px;
+  color: #fff6f6;
+}
+/* 3) end of feature section */
 /* end  of main */
 
 /* media query for mobile */
