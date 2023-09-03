@@ -75,6 +75,27 @@ li a {
 
 /*end of banner section */
 
+/* start of main */
+main {
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+/* 1)start of icons sections */
+.logo-text {
+  font-size: 3rem;
+  text-align: center;
+}
+.logo-text span {
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  color: #e02c6d;
+}
+.logos-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* end  of main */
+
 /* media query for mobile */
 
 @media screen and (max-width: 576px) {
