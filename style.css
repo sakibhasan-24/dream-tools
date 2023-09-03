@@ -39,6 +39,8 @@ li a {
 .banner-title {
   font-size: 3.25rem;
   font-weight: 700;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
 }
 .btn-primary {
   background-color: #e02c6d;
@@ -49,6 +51,12 @@ li a {
 .btn-banner {
   border-radius: 41px;
   padding: 1rem 3rem;
+  text-align: center;
+}
+.btn-banner span i {
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 0.5rem;
 }
 .banner-image {
   background-image: url("./images/Circle\ design.svg");
