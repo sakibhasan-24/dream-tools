@@ -108,7 +108,7 @@ main {
   max-width: 43rem;
 }
 .feature-img img {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .feature-title {
   max-width: 35rem;
@@ -176,5 +176,13 @@ main {
   .logos-container img {
     width: 30%;
     margin: 1rem auto;
+  }
+  .features-container {
+    flex-direction: column;
+    /* padding: rem; */
+    margin-left: 1rem;
+  }
+  .feature-img img {
+    margin: 2rem;
   }
 }
