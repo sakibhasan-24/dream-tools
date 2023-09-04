@@ -171,6 +171,20 @@ main {
   border-radius: 8px;
   color: #fff6f6;
 }
+footer {
+  background-color: #0a0826;
+  text-align: center;
+  padding: 2rem 5rem;
+}
+.footer-title {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.footer-text p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
 /* 3) end of feature section */
 /* end  of main */
 
