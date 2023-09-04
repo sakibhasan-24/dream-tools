@@ -129,7 +129,15 @@ main {
   font-weight: 700;
   font-size: 0.8rem;
 }
-
+.btn-collection {
+  color: #e02c6d;
+  display: block;
+  text-align: right;
+  margin-top: 2rem;
+}
+.btn-collection i {
+  color: #e02c6d;
+}
 /* 2)end  of collection section */
 /* 3) start of feature section */
 
