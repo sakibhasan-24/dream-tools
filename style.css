@@ -95,6 +95,42 @@ main {
   justify-content: space-between;
 }
 /* 1)end of icons sections */
+
+/* 2)start of collection section */
+.collection-container {
+  margin-top: 4rem;
+}
+.collections {
+  margin-top: 5rem;
+  display: grid;
+  gap: 1.8rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.collection {
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 0.5rem 1.3rem;
+}
+.collection-img img {
+  border-radius: 8px;
+  margin-top: 0.9rem;
+}
+.collection-name {
+  color: #18191f;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.collection-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.6rem;
+}
+.collection-info-text p {
+  color: #60606a;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+/* 2)end  of collection section */
 /* 3) start of feature section */
 
 .features-container {
